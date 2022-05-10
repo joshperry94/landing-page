@@ -1,0 +1,150 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container{
+    display: flex;
+    background-color: #1f2937;
+    list-style-type: none;
+    height: 200px;
+    color: white;
+    padding: 15px;
+    margin: -22px;
+}
+
+.logo{
+    flex:5 0 auto;
+    margin-left: 200px;
+    font-size: 25px;
+    margin-top: 25px;
+    
+}
+
+.link1, .link2, .link3{
+    flex:1 0 auto;
+    margin-left: -100px;
+    width: 40px;
+    margin-top: 30px;
+}
+
+
+h1{
+    padding: 15px;
+    text-align: center;
+ }
+
+.random-container{
+    display: flex;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+   
+
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 10%;
+    border: 2px solid blue;
+   
+}
+
+
+.undertext-container{
+    display: flex;
+    padding: 20px;
+    list-style-type: none;
+    color: rgb(0, 0, 0);
+    justify-content: center;
+    gap:60px;
+    text-align: center;
+}
+
+.flavor1{
+
+    height: auto;
+    width: 170px;
+  
+}
+
+.quote-container{
+    display: flex;
+    background-color: #e5e7eb;
+    height: 300px;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-top: 100px;
+}
+
+.quote1{
+    color: rgb(73, 73, 179);
+    flex:1;
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+.quote2{
+    flex:1;
+    color: rgb(13, 13, 31);
+    font-size: 20px;
+    
+}
+.signup-container{
+    display: flex;
+    background-color: white;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.signupbox{
+    flex:0 0 auto;
+    display: flex;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 9px;
+    height:100px;
+    width: 750px;
+    background-color: rgb(67, 120, 219);
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    padding-right: 80px;
+}
+
+.signuptext{
+    flex:2;
+    color: white;
+    text-align: left;
+    padding-left: 80px;
+
+}
+
+.signuplink{
+display: flex;
+flex:0 0 auto;
+width: 135px;
+height: 40px;
+border-radius: 10px;
+border: solid white;
+color: white;
+align-items: center;
+justify-content: center;
+margin:10px;
+
+}
+
+
+footer{
+
+    color: white;
+    padding: 50px;
+    background-color:#1f2937;
+    text-align: center;
+    
+
+}

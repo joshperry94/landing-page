@@ -6,10 +6,44 @@ body{
     display: flex;
     background-color: #1f2937;
     list-style-type: none;
-    height: 200px;
+    height: 59px;
     color: white;
-    padding: 15px;
     margin: -22px;
+    gap:50px;
+}
+
+.img{
+    width: 530px;
+}
+
+h2{
+    font-size: 30px;
+    margin-bottom: -10px;
+}
+
+.main-container
+{
+display: flex;
+padding:30px;
+background-color: #1f2937;
+margin: -22px;
+height: fit-content;
+text-align: left;
+justify-content: space-evenly;
+color: white;
+padding-top: 70px;
+}
+
+.maincube{
+    
+    width: 221px;
+    
+}
+.maincubenine{
+
+    flex:1 0 0%;
+    width: 400px;
+
 }
 
 .logo{
@@ -47,7 +81,7 @@ img{
     height: 200px;
     width: 200px;
     border-radius: 10%;
-    border: 2px solid blue;
+    border: 2px solid black;
    
 }
 
